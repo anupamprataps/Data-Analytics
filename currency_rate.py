@@ -1,7 +1,7 @@
 import urllib
-import pandas
-import numpy
-
+import pandas as pd
+import numpy as np
+import bs4
 url = 'https://www.iban.com/exchange-rates'
 print("Opening the file connection...")
 uh= urllib.request.urlopen(url)
